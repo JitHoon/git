@@ -1,0 +1,13 @@
+4. branch 생성 및 병합
+
+# 원하는 commit에서 branch 따오기
+git checkout commitID -b 새브랜치이름
+
+# main으로 branch 이동
+git checkout main
+
+# branch 목록 확인
+git branch
+
+# 저장소에 branch 등록 (새브랜치에서 push)
+git push origin 새브랜치이름
