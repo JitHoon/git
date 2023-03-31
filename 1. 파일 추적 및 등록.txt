@@ -1,0 +1,18 @@
+1. 파일 추적 및 등록
+
+# .git 파일 생성
+git init .
+
+# .gitignore 파일 생성
+touch .gitignore
+
+# track
+git add .
+
+# commit with message
+git commit -m ""
+git remote add 원격저장소이름 url
+
+# remote 삭제
+git remote remove 원격저장소이름
+git push origin main
