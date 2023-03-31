@@ -1,0 +1,23 @@
+3. HEAD 이동, commit 삭제 및 수정
+
+# commitID로 이동
+git checkout commitID
+
+# HEAD로 이동
+git checkout main
+
+# 최근 commit 수정 : message는 수정하지 않으면서 파일 추가하기 (push --force 해주기)
+git commit --amend --no-edit
+
+# HEAD^^^ 세 commit 전으로 reset
+# soft : 해당 commit의 변경사항은 유지하면서 commit 전으로 이동
+git reset --soft HEAD^
+
+# mixed : 해당 commit의 변경사항은 유지하면서 add 전으로 이동
+git reset HEAD^
+
+# hard : 해당 commit의 변경사항까지 없애면서 add 전으로 이동
+git reset --hard HEAD^
+
+# --force 없이 push를 하면 두 commit이 병합되어 새로운 commit이 생기므로 가급적 --force가 깔끔하다.
+git push origin main --force
