@@ -1,0 +1,14 @@
+2. 주요 확인 명령어
+
+# 원격 저장소 확인 (url 불러오기)
+git remote -v
+
+# stage 상태 확인
+git status
+
+# untracked 상태로 되돌리기 (workig directory로 이동 = add 전 단계)
+git rm 파일이름
+
+# commit 확인
+git log
+git reflog
