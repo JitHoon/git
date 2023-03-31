@@ -11,8 +11,10 @@ git add .
 
 # commit with message
 git commit -m ""
-git remote add 원격저장소이름 url
 
-# remote 삭제
+# remote 등록 및 삭제
+git remote add 원격저장소이름 url
 git remote remove 원격저장소이름
+
+# push to remote
 git push origin main
