@@ -1,0 +1,6 @@
+5. 협업, clone
+
+# github에서 협업 repository folk 후
+git clone folk해온내저장소의url 새파일이름
+
+# 파일 변경 후 github에서 new pull request 클릭
